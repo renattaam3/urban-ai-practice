@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-22T21:19:40.754112+00:00",
+  "territory": "Суздаль",
+  "osm_relation_id": 1390203,
+  "osm_source": "Geofabrik Central Federal District PBF + Pyrosm",
+  "boundary_area_km2": 15.046933892627765,
+  "block_area_km2": 14.857404083752588,
+  "block_count": 299,
+  "blocks_with_buildings": 186,
+  "blocks_with_population": 89,
+  "population_total": 9497.0,
+  "buildings_count": 4135,
+  "schools_count": 4,
+  "school_capacity_total": 1000.0,
+  "blocks_with_school_capacity": 4,
+  "school_demand_per_1000": 120,
+  "school_accessibility_min": 15,
+  "provision_strong_total": 0.3364327979712595,
+  "matrix_scope": "all",
+  "matrix_shape": [
+    299,
+    299
+  ],
+  "matrix_finite_share": 1.0,
+  "matrix_stats": {
+    "rows": 299,
+    "columns": 299,
+    "finite_share": 1.0,
+    "median_min": 30.686424255371094,
+    "p95_min": 61.17153549194336,
+    "max_min": 93.81016540527344
+  },
+  "graph": {
+    "created_at": "2026-10-22T21:16:44.618248+00:00",
+    "source": "OpenStreetMap via Geofabrik PBF + Pyrosm",
+    "pbf_file": "central-fed-district-latest.osm.pbf",
+    "pbf_mtime_ns": 1792700642416758300,
+    "boundary_hash": "1f786c29990eefca0d3c2d32de3513e7413b613af3ec9525a671174255ca4188",
+    "walk_speed_kmh": 5.0,
+    "crs": "32637",
+    "nodes": 2211,
+    "edges": 5832,
+    "components": 1,
+    "time_min_median": 0.43,
+    "time_min_p95": 2.4803499999999996
+  },
+  "density_medians": {
+    "fsi": 0.12931021978470192,
+    "gsi": 0.12260306828065501,
+    "mxi": 0.0,
+    "l": 1.0,
+    "osr": 6.748874234478766
+  },
+  "area_accessibility_median": 35.481175745022334,
+  "land_use_counts": {
+    "residential": 138,
+    "None": 103,
+    "industrial": 32,
+    "recreation": 11,
+    "agriculture": 8,
+    "special": 7
+  },
+  "land_use_nan_share": 0.34448160535117056,
+  "notes": "Оценки на основе OSM и коэффициентов BlocksNet; не официальная статистика."
+}

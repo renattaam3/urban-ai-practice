@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-22T21:15:53.180542+00:00",
+  "territory": "Суздаль",
+  "boundary_area_km2": 15.046933892627765,
+  "block_area_km2": 14.857404083752588,
+  "block_count": 299,
+  "blocks_with_buildings": 186,
+  "blocks_with_population": 89,
+  "population_total": 9497.0,
+  "land_use_nan_share": 0.34448160535117056,
+  "land_use_counts": {
+    "residential": 138,
+    "None": 103,
+    "industrial": 32,
+    "recreation": 11,
+    "agriculture": 8,
+    "special": 7
+  },
+  "matrix_scope": "all"
+}

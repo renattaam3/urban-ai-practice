@@ -31,14 +31,27 @@ instance/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Environments
+# Environments and local secrets
 .env
+.env.*
+!.env.example
 .venv/
 venv/
 ENV/
+*.pem
+*.key
 
 # MyPy
 .mypy_cache/
 
-# PyCharm env
-.idea
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local study data and generated artifacts
+examples/data/karabash_district/cache/
+examples/data/suzdal/cache/
+examples/data/suzdal/tmp/
+*.pbf

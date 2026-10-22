@@ -1,0 +1,14 @@
+check,status,value,note
+boundary_count,OK,1,Граница должна состоять из одного объекта
+boundary_area_km2,OK,15.0,Ожидается около 15 км²
+block_count,OK,299,
+land_use_missing_share,OK,34.4%,Доля кварталов без land use
+population_total,OK,9497,
+schools_count,OK,4,
+graph_nodes,OK,2211,
+graph_edges,OK,5832,
+matrix_square,OK,"(299, 299)",
+matrix_finite_share,OK,100.0%,
+provision_range,OK,0.000..1.000,
+matrix_scope,OK,all,
+outputs_exist,WARNING,25/26,Отсутствуют: railways.geojson
